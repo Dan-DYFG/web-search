@@ -10,6 +10,14 @@ body{
     color: #434345;
     ;line-height: 1.6;
 }
+.all-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
 .container-modal{
     background-color: transparent; 
     position: absolute;
@@ -26,6 +34,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgba(0, 0, 0, .6);
+    padding-top: 30px;
 }
 
 h1{
@@ -42,6 +51,23 @@ h1{
 .form-modal{
     margin-top: 30px;
 
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 9px 16px;
+    color: #1a2b3a;
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    z-index: 9;
+
+}
+.form-label{
+    margin-bottom: 10px;
+    font-weight: 400;
+    display: inline-block;
+    max-width: 100%;
 }
 
 
