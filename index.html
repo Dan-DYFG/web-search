@@ -1,52 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  
+  <title>Busca</title>
+
 </head>
-    
-    <body>
-        <div class="all-container">
-            <div class="container-modal">    
-                <h1 class="text-center">Build Your Future</h1> 
-                    <div class="green">
-                        <h4 class="text-center">We offer
-                            <span class="number">2,989</span> job vacancies right now!
-                        </h4>
-                    </div> 
-                        <div class="bottom-box">    
-                            <div class="group-item element-fullwidth" style="max-width: 352px;">
-                                <label class="form-label" for="home-search" name="s"></label>
-                                <input class="form-control" type="" autocomplete="off" placeholder="Job title, skill, or company">
-                    
-                            <form class="form-modal">
-                                <div class="group-sm group-item">
-                                    <select class="form-select" name="location" data-mininum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                                        <option value="">City or State</option>
-                                        <option value="New York">New York</option>
-                                        <option value="Mossuir">Mossuir</option>
-                                        <option value="Los Angeles">Los Angeles</option>
-                                    </select>
-                        
-                                        <span class=" select-container" dir="ltr" style="width: 220px;">
-                                            <span class="select-selection" role="combobox"
-                aria-haspopup="true" tabindex="0">
-                                            <span class="selection" title="City or State">
-                                    
-                                    <div class="button">
-                                        <button class="button-primary" type="button" style="max-width: 170px; min-width: 170px; min-height: 50px;">Find Job</button>
-                                    </div>
-                                </span>
-                            </span>
-                        </div>
-                        </span>
-                    </form>
-                </div>
+  
+  <body>
+    <main>
+      <div class="container">
+        <h1>Construa seu Futuro</h1>
+        <p>Oferecemos vagas de emprego agora mesmo!</p>
+        
+        <div class="box-search">
+          <div class="search" style="max-width: 352px;">
+            <label class=" form-label" for="home-search" name="s"></label>
+            <input class="form-control" type="text" autocomplete="off" placeholder="Profissão, habilidades ou companhia">
+          </div>
+          
+          <div class="box-select">
+            <select class="form-select" name="location" tabindex="-1" aria-hidden="true">
+              <option value="">Cidade ou Estado</option>
+              <option value="">São Paulo</option>
+              <option value="">Brasília</option>
+              <option value="">Rio de Janeiro</option>
+            </select>
+          
+            <div class="box-button">
+              <button class="button">Buscar</button>
             </div>
+          </div>
         </div>
-    </body>
+      </div>
+    </main>
+  </body>
 </html>
